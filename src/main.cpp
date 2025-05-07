@@ -2,7 +2,7 @@
 #include "utils.h"
 
 static const String zticker_version = "v2.36";
-static const String binanceStreamDomain = "data-stream.binance.com";
+static const String binanceStreamDomain = "testnet.binance.vision";
 static const String binanceApiBaseUrl = "https://data-api.binance.vision";
 static const String coingekoApiBaseUrl = "https://api.coingecko.com";
 
