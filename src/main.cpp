@@ -336,7 +336,7 @@ bool startCP(IPAddress ip){
 
 void connectClient(){
   client.disconnect();
-  client.beginSSL(binanceStreamDomain, 9443, "/ws/" + symbol + "@ticker/" + symbol + "@aggTrade");
+  client.beginSSL(binanceStreamDomain, 443, "/ws/" + symbol + "@ticker/" + symbol + "@aggTrade");
   client.onEvent(webSocketEvent);
 }
 
